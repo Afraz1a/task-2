@@ -1,0 +1,54 @@
+{
+  "topic": "Final year project",
+  "platform": "LinkedIn",
+  "tone": "professional",
+  "output_type": "portfolio post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T10:01:10",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "The Unexpected Complexity of a Final Year Project",
+  "hook": "Building a final year project felt like scaling Everest – here’s the raw truth.",
+  "audience": "Final year students, academics, and industry professionals interested in engineering and design projects",
+  "caption": "My capstone project nearly broke me, and here’s why. As a student, I recently completed my dissertation, a process far more demanding than initially imagined. The core challenge centered on integrating a novel sensor array with existing control systems – a technical hurdle that consumed countless hours. \n\nDebugging sessions stretched late into the night, punctuated by moments of intense frustration followed by focused problem-solving. The project demanded a significant shift in my approach to design and implementation, pushing me to confront complexities I hadn't anticipated. \n\nRefining the system’s performance and navigating unforeseen integration issues was a deeply immersive learning experience. It highlighted the critical need for meticulous planning and adaptability. What’s the biggest surprise you encountered during your own academic project? #EngineeringDesign #UniversityProjects #CapstoneProject #Dissertation #ProblemSolving #TechnicalChallenges",
+  "hashtags": [
+    "#FinalYearProject",
+    "#University",
+    "#Engineering",
+    "#CapstoneProject",
+    "#StudentLife",
+    "#Complex"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 3,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Hook is weak and overly dramatic. The phrase 'nearly broke me' is a cliché and doesn't immediately engage the reader. The opening sentence needs to be more specific and intriguing. Clarity could be improved by briefly explaining what a 'sensor array' and 'control systems' are, even if just in a single sentence. The paragraph length is a little long; breaking it into two shorter paragraphs would improve readability. The hashtag list is a little dense."
+    ],
+    "fixes": [
+      "Rewrite the opening to be more compelling and less melodramatic. For example: 'My capstone project pushed me to my limits, revealing the immense technical challenges of integrating a novel sensor array with existing control systems.'. Add a brief, one-sentence explanation of 'sensor array' and 'control systems' – something like: 'This involved integrating a sensor array, which collects data, with existing control systems, which manage automated processes.'. Break the second paragraph into two shorter paragraphs. Reduce the number of hashtags to 5-7, prioritizing the most relevant ones."
+    ],
+    "average": 3.5
+  },
+  "caption_original": "Building a final year project felt like scaling Everest – here’s the raw truth.\n\nAs a final year student, I recently completed my project – and let me tell you, it was a journey. The initial vision was simple, but the execution quickly revealed a layer of complexity I hadn't anticipated.\n\nIt involved countless late nights, debugging sessions, and unexpected roadblocks. There were moments of intense frustration, followed by bursts of creative problem-solving. The process demanded a level of adaptability and resilience I hadn’t fully appreciated.\n\nWorking through the technical challenges and refining the design pushed me beyond my comfort zone. It was a truly immersive learning experience.\n\nWhat were the biggest unexpected hurdles you faced during your final year project? #finalyearproject #engineering #design #projectmanagement #university",
+  "revised": true
+}

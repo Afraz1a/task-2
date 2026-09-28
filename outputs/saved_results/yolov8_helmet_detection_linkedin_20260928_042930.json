@@ -1,0 +1,59 @@
+{
+  "topic": "YOLOv8 helmet detection",
+  "platform": "LinkedIn",
+  "tone": "professional",
+  "output_type": "post and hashtags",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T04:28:25",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "A Calibration Challenge: Dataset Bias and its Impact",
+  "hook": "Building a helmet detection model revealed a surprising dataset bias – 60% of our data was daytime.",
+  "audience": "Data scientists, computer vision engineers, safety tech developers",
+  "caption": "Developing a YOLOv8 helmet detection model revealed a critical data bias. We developed the model and found that 60% of our training data was captured during daytime conditions. This immediately highlighted a potential performance issue when deploying the model in low-light scenarios – a common challenge in computer vision. Datasets heavily skewed towards specific conditions require careful consideration of data diversity. We conducted extensive nighttime testing to improve model robustness. This work underscores the importance of thoroughly assessing data imbalances, particularly when developing safety tech like wearable detection. What techniques have you used to address skewed datasets in your computer vision projects? Let’s discuss best practices for ensuring reliable model performance. #HelmetDetection #DatasetBias #ComputerVision #SafetyTech",
+  "hashtags": [
+    "#ComputerVision",
+    "#AI",
+    "#YOLOv8",
+    "#HelmetDetection",
+    "#DatasetBias",
+    "#Calibration"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 4,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Hook is weak and doesn’t immediately convey the core finding.",
+      "The explanation of the bias could be simplified for a broader audience.",
+      "Hashtags are somewhat redundant – ‘AI’ is too generic."
+    ],
+    "fixes": [
+      "Rewrite the caption to start with the key finding: ‘Developing our YOLOv8 helmet detection model revealed a significant data bias – 60% of our training data was captured during daylight hours.’",
+      "Replace ‘Datasets heavily skewed towards specific conditions require careful consideration of data diversity’ with ‘This imbalance highlighted the need for diverse training data to ensure reliable performance in various conditions.’",
+      "Remove ‘AI’ from the hashtags. Focus on more targeted terms like ‘ComputerVision’, ‘YOLOv8’, and ‘DatasetBias’"
+    ],
+    "average": 3.67
+  },
+  "caption_original": "Building a YOLOv8 helmet detection model presented a fascinating calibration challenge. \n\nWe discovered a surprising dataset bias – 60% of our data was captured during daytime conditions. \n\nThis immediately highlighted the potential for significant performance degradation when deploying the model in low-light scenarios. \n\nDatasets heavily skewed towards specific environmental conditions are a common issue in computer vision. \n\nCareful consideration of data diversity – including extensive nighttime testing – is crucial for robust model performance. \n\nFor data scientists and computer vision engineers working on safety tech, particularly in areas like wearable detection, understanding and mitigating dataset bias is paramount. \n\nWhat strategies have you found most effective for addressing data imbalances in your projects? #YOLOv8 #HelmetDetection #ComputerVision #DatasetBias #SafetyTech",
+  "revised": true
+}

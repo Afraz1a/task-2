@@ -1,0 +1,79 @@
+{
+  "topic": "Computer vision project",
+  "platform": "YouTube Shorts",
+  "tone": "exciting",
+  "output_type": "video script",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T03:53:58",
+  "tools_used": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "caption_writer",
+    "title_thumbnail_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "reel_script_generator",
+    "trend_idea_generator",
+    "caption_writer",
+    "title_thumbnail_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [
+    "moved trend_idea_generator to the front"
+  ],
+  "angle": "The Unexpected Data",
+  "hook": "Raw images exploded with chaos. Then, the computer vision *saw* something incredible.",
+  "audience": "People interested in AI, machine learning, and the hidden world of data",
+  "reel_script": [
+    {
+      "scene": 1,
+      "visual": "Rapid montage of distorted camera feeds – blurry faces, flashing objects, static.",
+      "voiceover": "Ever wonder what gets lost in the data?"
+    },
+    {
+      "scene": 2,
+      "visual": "Screen recording: A computer vision system analyzing a street scene. Zoom into an anomaly - a pigeon.",
+      "voiceover": "We trained it to spot cars… but look closer."
+    },
+    {
+      "scene": 3,
+      "visual": "Close-up shot of the code interface – highlighting lines identifying 'pigeon'.",
+      "voiceover": "The system flagged a pigeon. Unexpectedly. Seriously unexpected.” 2 seconds silence” 1 second sound effect: ‘ping’ “Alert!” 1 second. “It found it”.  “We were wrong."
+    },
+    {
+      "scene": 4,
+      "visual": "Creator smiling at the camera while pointing to a YouTube link.",
+      "voiceover": "Want to explore computer vision surprises? Subscribe now!"
+    }
+  ],
+  "reel_seconds": 45,
+  "caption": "Computer vision found something *completely* unexpected in a mountain of noise. (Visual: Rapid cuts of distorted, messy computer vision data – noise, glitches, overlapping images – building to a brief, clear image of a specific object.) We showed the system thousands of images. It isolated this detail – a pigeon – within all the data. Suddenly, the system found something new. This unexpected data shows how much we can still learn from complex information. What will *you* discover?",
+  "titles": [
+    "Data's Hidden Secrets"
+  ],
+  "thumbnail_texts": [
+    "Unexpected Insights Revealed"
+  ],
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 5,
+      "length": 5,
+      "tone": 5,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "PASS",
+    "problems": [
+      "Hashtags are too numerous and could be more targeted. ‘Computer vision’ is redundant."
+    ],
+    "fixes": [
+      "Reduce hashtags to 2-3 maximum: #ComputerVision #AI #UnexpectedData. Consider adding a hashtag related to the pigeon itself, if relevant – #pigeon or #birdwatching, but only if the visual content strongly supports it."
+    ],
+    "average": 4.67
+  },
+  "caption_original": "Raw images exploded with chaos. Then, the computer vision *saw* something incredible.\n\n(Visual: Rapid cuts of distorted, messy computer vision data – noise, glitches, overlapping images – building to a brief, clear image of a specific object.)\n\nI was building a computer vision project, and the initial data was… a disaster. Seriously, pure chaos. Mountains of images, just noise. It looked like a digital explosion.\n\nBut we kept refining the algorithm, tweaking the parameters. And then, it happened.\n\n(Visual: The same clear image of the object appears again, perhaps with a subtle animation highlighting its features.)\n\nSuddenly, the computer vision *saw* something incredible. It isolated this specific detail, this… thing, within all the noise. It was a moment of pure AI magic.\n\nThis is the unexpected data – the raw truth hidden within the chaos. It’s what makes building these systems so fascinating. What unexpected discoveries will *you* make?\n\n#computer vision #AI #machinelearning #data #artificialintelligence #deeplearning",
+  "revised": true
+}

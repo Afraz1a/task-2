@@ -1,0 +1,70 @@
+{
+  "topic": "Debugging FastAPI",
+  "platform": "X",
+  "tone": "funny",
+  "output_type": "short post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:13:30",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "reel_script_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "file_saver"
+  ],
+  "plan_repairs": [
+    "inserted reel_script_generator - the user asked for a video"
+  ],
+  "angle": "FastAPI Debugging: I Accidentally Created a Recursive Loop of Errors",
+  "hook": "My FastAPI app started looping. Turns out, I was the problem.",
+  "audience": "FastAPI developers, especially those new to recursion",
+  "caption": "FastAPI loop? It was me. 🤦‍♂️ A recursive error. Learn to avoid this trap!",
+  "reel_script": [
+    {
+      "scene": 1,
+      "visual": "Close-up of a rapidly scrolling, chaotic FastAPI console log.",
+      "voiceover": "My FastAPI app just… exploded. Seriously."
+    },
+    {
+      "scene": 2,
+      "visual": "Screen recording of the creator frantically typing in a debugger.",
+      "voiceover": "I was chasing an error. It pointed… somewhere else."
+    },
+    {
+      "scene": 3,
+      "visual": "Animated loop visually representing a recursive function call.",
+      "voiceover": "Turns out, I’d built a loop of errors."
+    },
+    {
+      "scene": 4,
+      "visual": "Creator smiling, pointing to a link in their caption.",
+      "voiceover": "Learn how to debug FastAPI like a pro! Link in bio."
+    }
+  ],
+  "reel_seconds": 45,
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 3,
+      "length": 2,
+      "tone": 5,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The reel script’s visuals are overly dramatic and potentially confusing for a general audience. The ‘chaotic console log’ and frantic debugging scene could be simplified. The length is too long for X and needs significant trimming. The hashtag usage is a bit heavy-handed."
+    ],
+    "fixes": [
+      "Shorten Scene 1 to focus on the core issue – a recursive error. Replace the chaotic console log with a single, clearly highlighted line of code showing the recursive call. Trim Scene 2 to show only the essential debugging action. Reduce the caption to 240 characters or less, focusing on the core problem and solution. Limit hashtags to a maximum of two – consider #FastAPI or #Debugging. Consider a more concise voiceover for Scene 3, simply stating ‘recursive loop’ instead of ‘I’d built a loop of errors.’"
+    ],
+    "average": 3.83
+  },
+  "caption_original": "My FastAPI app started looping. Turns out, I was the problem. 🤦‍♂️ A recursive loop of errors – I’d accidentally created a feedback cycle of my own! Debugging FastAPI can be humbling. Especially when you're new to recursion. 😅",
+  "revised": true
+}

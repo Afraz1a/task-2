@@ -1,0 +1,49 @@
+{
+  "topic": "Open-source contribution",
+  "platform": "LinkedIn",
+  "tone": "inspirational",
+  "output_type": "post",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T03:56:26",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "The Unexpected Ripple Effect of a Single Line of Code",
+  "hook": "That one line you wrote changed a core algorithm. Seriously.",
+  "audience": "Software developers, open-source enthusiasts, anyone curious about impact",
+  "caption": "That one line you wrote changed a core algorithm. Seriously.\n\nI recently submitted a small patch to the [Project Name] project – just a single line of code. I honestly didn’t expect much. But after the team reviewed it, they revealed something incredible: my change subtly improved the efficiency of the core algorithm by [Percentage]%.\n\nIt highlighted for me the power of incremental contributions within open-source. Every line, every suggestion, has the potential to create a ripple effect, impacting larger systems in ways you can’t predict.\n\nThis experience reinforced the importance of consistent participation and the collaborative spirit of the open-source community. It’s a powerful reminder that even small actions can have a significant impact.\n\nWhat’s the most surprising impact you’ve experienced through open-source contributions?",
+  "hashtags": [
+    "#OpenSource",
+    "#Innovation",
+    "#Collaboration",
+    "#CodeContribution",
+    "#SoftwareDevelopment",
+    "#Community"
+  ],
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 5,
+      "length": 5,
+      "tone": 5,
+      "hashtags": 4,
+      "no_invented_claims": 5
+    },
+    "verdict": "PASS",
+    "problems": [],
+    "fixes": [],
+    "average": 4.83
+  }
+}

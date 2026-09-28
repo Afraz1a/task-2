@@ -1,0 +1,52 @@
+{
+  "topic": "Debugging FastAPI",
+  "platform": "X",
+  "tone": "funny",
+  "output_type": "short post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:30:44",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "The Unexpectedly Long Time It Took to Find a Single Missing Colon",
+  "hook": "Turns out, my API was silently judging me... over a single colon.",
+  "audience": "FastAPI developers experiencing frustrating debugging moments",
+  "caption": "A missing colon in my FastAPI API threw me for a loop. Anyone else?",
+  "hashtags": [
+    "#fastapi",
+    "#python",
+    "#debugging"
+  ],
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 5,
+      "length": 3,
+      "tone": 5,
+      "hashtags": 4,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The caption is 189 characters long, exceeding X’s 280-character limit. It needs to be significantly condensed to focus on the core issue."
+    ],
+    "fixes": [
+      "Shorten the caption to approximately 140 characters. Example: ‘Missing colons in FastAPI APIs are a pain! Anyone else encounter this?’"
+    ],
+    "average": 4.5
+  },
+  "caption_original": "Turns out, my API was silently judging me... over a single colon. 🤦‍♂️ Debugging FastAPI can be brutal. Seriously, a missing colon threw me for a loop. Anyone else have a story about a tiny syntax error causing chaos? #FastAPI #Debugging",
+  "revised": true
+}

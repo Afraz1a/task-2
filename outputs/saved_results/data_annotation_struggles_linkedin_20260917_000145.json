@@ -1,0 +1,39 @@
+{
+  "topic": "Data annotation struggles",
+  "platform": "LinkedIn",
+  "tone": "humorous",
+  "output_type": "post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T00:01:02",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "We Tried to Build a Robot... It Just Wanted to Label",
+  "hook": "Our AI wanted to label cats. Turns out, data annotation is *weird*.",
+  "audience": "Data scientists, machine learning engineers, and anyone who’s stared into a spreadsheet’s abyss",
+  "caption": "Our AI wanted to label cats. Turns out, data annotation is *weird*.\n\nWe recently embarked on a project to build a system for automatically labeling images – essentially, training an AI to recognize things.\n\nIt started smoothly enough. We fed it thousands of images and watched as our robot diligently… labeled. Specifically, it wanted to label *cats*. Every. Single. Cat.\n\nTurns out, data annotation isn't just about feeding data to an algorithm. It’s about the nuances of human interpretation, the subjective nature of ‘cat’ versus ‘not cat,’ and the sheer volume of ambiguous images.\n\nSeriously, staring into a spreadsheet full of bounding box coordinates and confidence scores is an experience.\n\nData scientists, machine learning engineers, and anyone who’s ever wrestled with messy data – we feel your pain. What are your biggest data annotation challenges?",
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 5,
+      "length": 5,
+      "tone": 5,
+      "hashtags": 4,
+      "no_invented_claims": 5
+    },
+    "verdict": "PASS",
+    "problems": [],
+    "fixes": [],
+    "average": 4.83
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "topic": "Data annotation struggles",
+  "platform": "LinkedIn",
+  "tone": "humorous",
+  "output_type": "post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:51:18",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "When 90% of Annotations Were Actually Just… Gray",
+  "hook": "My team spent a week meticulously labeling… and 90% of the data was just a giant, sad gray blob. Seriously.",
+  "audience": "Data scientists, machine learning engineers, and anyone who’s ever stared blankly at a spreadsheet",
+  "caption": "My team spent a week meticulously labeling… and 90% of the data was just a giant, sad gray blob. Seriously.\n\nWe were tasked with annotating a massive dataset for a new computer vision project. We invested significant time – a full week – in building our labeling workflow and training our annotators.  The result? A spreadsheet filled with 90% gray. \n\nTurns out, the original data collection process hadn’t included any labels at all. It was just… raw data. A massive, unlabeled void.\n\nIt highlighted the critical importance of data quality upfront.  A huge amount of time was wasted because the foundation wasn’t there.\n\nAnyone else have a similar experience staring down a mountain of unlabeled data? What strategies do you use to mitigate this risk before you even start?",
+  "hashtags": [
+    "#DataAnnotation",
+    "#MachineLearning",
+    "#AI",
+    "#DataLabeling",
+    "#AnnotationChallenges",
+    "#GrayAnnotations"
+  ],
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 5,
+      "length": 5,
+      "tone": 5,
+      "hashtags": 4,
+      "no_invented_claims": 5
+    },
+    "verdict": "PASS",
+    "problems": [],
+    "fixes": [],
+    "average": 4.83
+  }
+}

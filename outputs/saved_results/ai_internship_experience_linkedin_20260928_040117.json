@@ -1,0 +1,48 @@
+{
+  "topic": "AI internship experience",
+  "platform": "LinkedIn",
+  "tone": "motivational",
+  "output_type": "post",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T04:00:35",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "Learning to Question Assumptions About AI",
+  "hook": "I spent a week building an AI, and it hilariously shattered everything I thought I knew.",
+  "audience": "Aspiring AI engineers, students interested in machine learning",
+  "caption": "I spent a week building an AI, and it hilariously shattered everything I thought I knew.\n\nAs an aspiring AI engineer, I’ve always approached machine learning with a certain… confidence. I’d read the papers, understood the algorithms, and felt prepared. Then I built a simple AI – just a basic classification model – and it consistently made *wildly* inaccurate predictions.\n\nIt wasn’t a bug; it was a revelation. The data I used was subtly biased, reflecting real-world inequalities I hadn't fully considered. Suddenly, the ‘objective’ nature of AI felt… complicated.\n\nThis experience highlighted the critical importance of questioning our assumptions. Data shapes AI, and we must constantly scrutinize the origins and potential biases within it.\n\nWhat assumptions have *you* questioned in your AI journey? #AI #MachineLearning #Internship #DataBias #Learning",
+  "hashtags": [
+    "#AI",
+    "#ArtificialIntelligence",
+    "#MachineLearning",
+    "#Internship",
+    "#AIlearning",
+    "#CriticalThinking"
+  ],
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 5,
+      "length": 5,
+      "tone": 5,
+      "hashtags": 4,
+      "no_invented_claims": 5
+    },
+    "verdict": "PASS",
+    "problems": [],
+    "fixes": [],
+    "average": 4.83
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "model": "gemma3:4b",
+  "run_at": "2026-09-28T04:40:45",
+  "total_seconds": 742.2,
+  "llm_stats": {
+    "calls": 83,
+    "seconds": 471,
+    "repeat_loop": 1
+  },
+  "results": [
+    {
+      "test": 1,
+      "topic": "YOLOv8 helmet detection",
+      "platform": "LinkedIn",
+      "tone": "professional",
+      "output_type": "post and hashtags",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.67,
+      "review_problems": [
+        "Hook is weak and doesn’t immediately convey the core finding.",
+        "The explanation of the bias could be simplified for a broader audience.",
+        "Hashtags are somewhat redundant – ‘AI’ is too generic."
+      ],
+      "revised": true,
+      "caption_words": 115,
+      "hashtags": 6,
+      "scenes": 0,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_posts\\yolov8_helmet_detection_linkedin_20260928_042930.md",
+      "seconds": 67.5
+    },
+    {
+      "test": 2,
+      "topic": "AI internship experience",
+      "platform": "LinkedIn",
+      "tone": "motivational",
+      "output_type": "post",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "caption_writer",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "caption_writer",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.17,
+      "review_problems": [
+        "Hook is weak and generic. ‘A wall’ is overused. The initial sentence doesn’t immediately grab attention. ‘Iterative exploration’ is repeated unnecessarily. The description lacks a specific, engaging detail about the work. The concluding sentence feels tacked on and doesn’t offer a strong takeaway."
+      ],
+      "revised": true,
+      "caption_words": 106,
+      "hashtags": 0,
+      "scenes": 0,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_posts\\ai_internship_experience_linkedin_20260928_043034.md",
+      "seconds": 63.4
+    },
+    {
+      "test": 3,
+      "topic": "Python learning journey",
+      "platform": "Instagram",
+      "tone": "funny",
+      "output_type": "reel script",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "reel_script_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "title_thumbnail_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "reel_script_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "title_thumbnail_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 4.33,
+      "review_problems": [
+        "The hook is weak. ‘My Python code almost broke me’ is a cliché and doesn’t immediately grab attention. It relies on a common, slightly overused sentiment.",
+        "While clear for someone in the field, the explanation of a syntax error could be more concise and directly tied to the visual. It’s a bit verbose.",
+        "The reel script is good, but scene 4 feels slightly forced – the ‘Want to tame the syntax?’ is a call to action that could be more integrated naturally into the narrative."
+      ],
+      "revised": true,
+      "caption_words": 96,
+      "hashtags": 12,
+      "scenes": 4,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_scripts\\python_learning_journey_instagram_20260928_043205.md",
+      "seconds": 91.0
+    },
+    {
+      "test": 4,
+      "topic": "Machine learning project",
+      "platform": "X",
+      "tone": "short and catchy",
+      "output_type": "short post",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.17,
+      "review_problems": [
+        "The hook is weak and relies on a slightly odd observation. It needs a stronger, more engaging element.",
+        "The caption is too long for X. It needs significant trimming to focus on the core idea.",
+        "The tone is neutral and doesn’t fully capture ‘short and catchy’."
+      ],
+      "revised": true,
+      "caption_words": 15,
+      "hashtags": 3,
+      "scenes": 0,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_posts\\machine_learning_project_x_20260928_043304.md",
+      "seconds": 59.5
+    },
+    {
+      "test": 5,
+      "topic": "Data annotation struggles",
+      "platform": "LinkedIn",
+      "tone": "humorous",
+      "output_type": "post",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "caption_writer",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "caption_writer",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.17,
+      "review_problems": [
+        "Hook is weak and doesn't preview the content effectively.",
+        "The language is somewhat dry and lacks impact. It reads like a project report, not a compelling LinkedIn post.",
+        "Paragraphs are too long. LinkedIn users scan, not read lengthy blocks of text.",
+        "The tone is neutral, not humorous. While acknowledging challenges is important, a more engaging approach is needed."
+      ],
+      "revised": true,
+      "caption_words": 100,
+      "hashtags": 0,
+      "scenes": 0,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_posts\\data_annotation_struggles_linkedin_20260928_043411.md",
+      "seconds": 66.7
+    },
+    {
+      "test": 6,
+      "topic": "Model failed in production",
+      "platform": "Instagram",
+      "tone": "meme style",
+      "output_type": "reel script",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "reel_script_generator",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "reel_script_generator",
+        "hashtag_generator",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.67,
+      "review_problems": [
+        "The hook is weak. The 'Model Failed' message is a common, somewhat cliché error. It needs a more immediate, surprising element to grab attention. The zoom is standard but doesn’t add much.",
+        "While generally understandable, the script relies heavily on jargon ('model meltdown', 'training data'). A broader audience won’t immediately grasp the core issue – poor data quality.",
+        "The length is acceptable, but could be tightened. The voiceover in Scene 2 is particularly wordy.",
+        "The tone is generally correct – slightly exasperated – but leans a little too heavily into the ‘engineer pointing at spreadsheet’ trope. It feels slightly staged.",
+        "The hashtag selection is decent, but could be more targeted. ‘Chaos’ feels a bit out of place."
+      ],
+      "revised": false,
+      "caption_words": 0,
+      "hashtags": 12,
+      "scenes": 4,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_scripts\\model_failed_in_production_instagram_20260928_043508.md",
+      "seconds": 57.7
+    },
+    {
+      "test": 7,
+      "topic": "Final year project",
+      "platform": "LinkedIn",
+      "tone": "professional",
+      "output_type": "portfolio post",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "title_thumbnail_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "title_thumbnail_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.33,
+      "review_problems": [
+        "The hook is weak and doesn’t immediately grab attention. It states a fact rather than posing a question or highlighting intrigue. The phrasing ‘I uncovered’ is passive and doesn’t convey excitement. The description of the research feels like an afterthought. Clarity could be improved for someone outside sustainable fashion – ‘upcycled denim jackets with QR codes’ needs a little context. The length is borderline, but could be tightened. The hashtags are a little heavy on the generic ones."
+      ],
+      "revised": true,
+      "caption_words": 91,
+      "hashtags": 3,
+      "scenes": 0,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_posts\\final_year_project_linkedin_20260928_043623.md",
+      "seconds": 74.2
+    },
+    {
+      "test": 8,
+      "topic": "Computer vision project",
+      "platform": "YouTube Shorts",
+      "tone": "exciting",
+      "output_type": "video script",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "reel_script_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "title_thumbnail_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "reel_script_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "title_thumbnail_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [
+        "inserted trend_idea_generator - writer tools need an angle"
+      ],
+      "review_verdict": "REVISE",
+      "review_average": 3.83,
+      "review_problems": [
+        "The initial caption’s ‘Hey tech enthusiasts!’ feels immediately out of place in a short. It’s too conversational and doesn’t immediately grab attention. The ‘Wow, look at that!’ feels forced and doesn’t add value. The voiceover in scene 1 is overly dramatic and doesn’t directly relate to the visual. The ‘Let us know in the comments…’ call to action is weak and doesn’t leverage the short format effectively.",
+        "The script relies heavily on explaining *how* the system works, which is dense and potentially confusing for a general audience. It’s explaining the *process* of computer vision, not showcasing the output.",
+        "The ‘Want to see what your cameras detect? Subscribe now!’ is a generic call to action and doesn’t build excitement or curiosity."
+      ],
+      "revised": true,
+      "caption_words": 87,
+      "hashtags": 5,
+      "scenes": 4,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_scripts\\computer_vision_project_youtube_shorts_20260928_043821.md",
+      "seconds": 118.7
+    },
+    {
+      "test": 9,
+      "topic": "Debugging FastAPI",
+      "platform": "X",
+      "tone": "funny",
+      "output_type": "short post",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.33,
+      "review_problems": [
+        "Caption is too long and lacks a strong hook. The 'rubber duck' reference is vague and doesn't immediately resonate. The emoji is unnecessary and doesn't add value.",
+        "The caption needs to be more concise and directly address the frustration of FastAPI debugging. It’s not immediately clear to someone outside the field why this is a problem.",
+        "The caption exceeds the character limit."
+      ],
+      "revised": true,
+      "caption_words": 11,
+      "hashtags": 3,
+      "scenes": 0,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_posts\\debugging_fastapi_x_20260928_043936.md",
+      "seconds": 74.3
+    },
+    {
+      "test": 10,
+      "topic": "Open-source contribution",
+      "platform": "LinkedIn",
+      "tone": "inspirational",
+      "output_type": "post",
+      "status": "PASS",
+      "note": "all requested outputs produced and saved",
+      "tools_used": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "tool_errors": [],
+      "plan_raw": [
+        "trend_idea_generator",
+        "caption_writer",
+        "hashtag_generator",
+        "content_reviewer",
+        "file_saver"
+      ],
+      "plan_repairs": [],
+      "review_verdict": "REVISE",
+      "review_average": 3.5,
+      "review_problems": [
+        "Hook is weak and relies on a negative experience. The opening doesn't immediately grab attention. The phrasing ‘nearly derailed my week’ is a bit melodramatic and doesn’t immediately convey value. The ‘unexpectedly’ feels forced. The description of the communication – ‘focused communication’ – is vague and doesn’t illustrate the actual process. The tone is slightly too earnest and leans into inspirational without concrete detail. The hashtags are a bit broad and could be more targeted."
+      ],
+      "revised": true,
+      "caption_words": 108,
+      "hashtags": 6,
+      "scenes": 0,
+      "saved_file": "C:\\Users\\Hp\\Desktop\\AIRI_PITB_Internship\\Task_2_Agentic_AI_TrendPilot\\outputs\\generated_posts\\open_source_contribution_linkedin_20260928_044045.md",
+      "seconds": 69.2
+    }
+  ]
+}

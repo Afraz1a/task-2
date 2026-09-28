@@ -1,0 +1,88 @@
+{
+  "topic": "Python learning journey",
+  "platform": "Instagram",
+  "tone": "funny",
+  "output_type": "reel script",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:44:20",
+  "tools_used": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "Hours Spent Debugging… A Single Space!",
+  "hook": "I spent 45 minutes chasing a rogue space. Python's a surprisingly judgmental roommate.",
+  "audience": "beginners learning Python, especially those prone to frustration",
+  "reel_script": [
+    {
+      "scene": 1,
+      "visual": "Close-up of a frustrated coder slamming a keyboard",
+      "voiceover": "Ever stare at a red line? Seriously?"
+    },
+    {
+      "scene": 2,
+      "visual": "Screen recording of Python code with a single space missing",
+      "voiceover": "An hour debugging… a single missing space."
+    },
+    {
+      "scene": 3,
+      "visual": "Creator dramatically pointing at the screen, exaggerated sigh",
+      "voiceover": "The universe hates me. Python, why?"
+    },
+    {
+      "scene": 4,
+      "visual": "Creator smiling, pointing to a link in bio",
+      "voiceover": "Learn Python with me! Link in bio."
+    }
+  ],
+  "reel_seconds": 45,
+  "caption": "I spent 45 minutes chasing a rogue space. Python’s a surprisingly judgmental roommate. 🤯\n\nSeriously, I was staring at my code, meticulously reviewing every line, convinced a logic error was lurking. Turns out, a single, solitary space was the culprit. 🤦‍♀️\n\nLearning Python as a beginner is…an experience. It’s a masterclass in patience, and a constant reminder to triple-check your syntax. Don’t let a misplaced space derail your entire evening! 😅\n\nAnyone else have a debugging horror story? Share in the comments! 👇\n\n#python #pythonbeginner #coding #debugging #programmer #learntocode #codinglife #funnycoding #programming #space",
+  "hashtags": [
+    "#python",
+    "#programming",
+    "#coding",
+    "#learntocode",
+    "#debugging",
+    "#pythonbeginner",
+    "#pythondeveloper",
+    "#codinglife",
+    "#pythonproject",
+    "#codelife",
+    "#pythonhelp",
+    "#pythoncommunity"
+  ],
+  "titles": [
+    "Space Errors: My Python Pain"
+  ],
+  "thumbnail_texts": [
+    "Debugging's Hidden Cost"
+  ],
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 5,
+      "length": 5,
+      "tone": 5,
+      "hashtags": 5,
+      "no_invented_claims": 5
+    },
+    "verdict": "PASS",
+    "problems": [],
+    "fixes": [],
+    "average": 5.0
+  }
+}

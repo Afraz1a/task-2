@@ -1,0 +1,55 @@
+{
+  "topic": "Machine learning project",
+  "platform": "X",
+  "tone": "short and catchy",
+  "output_type": "short post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:27:04",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "Coding Challenge: Debugging a Model.",
+  "hook": "Spent days wrestling with a rogue machine learning model. This is what it took to fix it.",
+  "audience": "Developers, data scientists, anyone interested in technical problem-solving",
+  "caption": "Fixed a misbehaving machine learning model by identifying a misplaced activation function. Tracing data flow and examining gradients – a tough debugging session!",
+  "hashtags": [
+    "#MachineLearning",
+    "#CodingChallenge",
+    "#ModelDebugging"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 2,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Hook is weak and doesn't immediately grab attention.",
+      "Length is too long for X, exceeding the character limit.",
+      "The phrasing 'tough debugging session!' is cliché and doesn't convey the specific technical challenge."
+    ],
+    "fixes": [
+      "Rewrite the caption to focus on the core problem – the misplaced activation function. Example: ‘Fixed a model by correcting a misplaced activation function. Data flow & gradient tracing were complex!’",
+      "Trim the caption to under 280 characters. Prioritize the key technical detail: ‘Fixed a model by correcting a misplaced activation function.’",
+      "Replace ‘tough debugging session!’ with a more concise and impactful description of the technical challenge, if possible."
+    ],
+    "average": 3.33
+  },
+  "caption_original": "Spent days wrestling with a rogue machine learning model. This is what it took to fix it.\nDebugging was a brutal process of tracing data flow, examining gradients, and sheer stubbornness. Finally, a misplaced activation function brought it all crashing down. #MachineLearning #Coding",
+  "revised": true
+}

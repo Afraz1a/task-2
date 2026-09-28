@@ -1,0 +1,60 @@
+{
+  "topic": "Final year project",
+  "platform": "LinkedIn",
+  "tone": "professional",
+  "output_type": "portfolio post",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T04:35:11",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "Unexpected Insights from a Final Year Project – A Case Study",
+  "hook": "My final year project revealed a surprising market trend I hadn't anticipated. Let's discuss.",
+  "audience": "Other final year students, academic supervisors, industry professionals interested in emerging trends",
+  "caption": "I uncovered a surprising market trend during my final year project – a demand for upcycled denim jackets with QR codes. This trend emerged while analyzing consumer behavior within the sustainable fashion sector.\n\nMy research involved surveys and interviews with young adults interested in ethical consumption. We focused on identifying shifts in demand within the market.\n\nThis project pushed me to adapt my research methodology and really understand consumer motivations. I’m keen to hear about your most unexpected research findings! Share your most unexpected research findings! #finalyearproject #sustainablefashion #research #consumerbehaviour #innovation",
+  "hashtags": [
+    "#FinalYearProject",
+    "#University",
+    "#Innovation"
+  ],
+  "titles": [
+    "Hidden Project Insights"
+  ],
+  "thumbnail_texts": [
+    "Unexpected Findings Revealed"
+  ],
+  "review": {
+    "scores": {
+      "hook": 2,
+      "clarity": 3,
+      "length": 3,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The hook is weak and doesn’t immediately grab attention. It states a fact rather than posing a question or highlighting intrigue. The phrasing ‘I uncovered’ is passive and doesn’t convey excitement. The description of the research feels like an afterthought. Clarity could be improved for someone outside sustainable fashion – ‘upcycled denim jackets with QR codes’ needs a little context. The length is borderline, but could be tightened. The hashtags are a little heavy on the generic ones."
+    ],
+    "fixes": [
+      "Rewrite the caption with a stronger hook. Example: ‘QR codes on upcycled denim jackets? My final year project revealed a surprising trend driving demand in sustainable fashion. Let’s discuss!’ Shorten the description by focusing on the core finding – the QR code trend – and removing the detail about surveys and interviews. Trim the paragraph about adapting research methodology. Reduce the number of hashtags to 3-4, prioritizing #sustainablefashion and #consumerbehaviour. Consider adding a brief, one-sentence explanation of QR codes for those unfamiliar with the technology."
+    ],
+    "average": 3.33
+  },
+  "caption_original": "My final year project revealed a surprising market trend I hadn't anticipated. Let’s discuss.\n\nDuring my final year project, focused on analyzing consumer behavior within the sustainable fashion sector, I uncovered a significant shift – a growing demand for upcycled denim jackets incorporating QR codes linking to detailed production information. This wasn’t a predicted outcome of our initial research.\n\nThe project involved extensive data collection through surveys and interviews with young adults interested in ethical consumption. We meticulously analyzed existing market data alongside this primary research.\n\nIt was a challenging but incredibly rewarding experience, pushing me to adapt my research methodology and really dig into consumer motivations. I’m particularly interested in hearing how other students tackled unexpected findings in their projects.\n\nWhat surprising trends have you uncovered during your final year work? #finalyearproject #sustainablefashion #research #consumerbehaviour #innovation",
+  "revised": true
+}

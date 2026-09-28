@@ -1,0 +1,112 @@
+{
+  "topic": "Computer vision project",
+  "platform": "YouTube Shorts",
+  "tone": "exciting",
+  "output_type": "video script",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T04:36:25",
+  "tools_used": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "reel_script_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [
+    "inserted trend_idea_generator - writer tools need an angle"
+  ],
+  "angle": "The Unexpected Data",
+  "hook": "This is what the computer vision system *actually* saw before it learned to recognize anything.",
+  "audience": "Tech enthusiasts, computer science students, anyone curious about AI's initial 'brainstorming'",
+  "reel_script": [
+    {
+      "scene": 1,
+      "visual": "A blurry, out-of-focus human face slowly resolves into a clear image of a woman smiling. Duration: 1.5 seconds.",
+      "voiceover": "What does your camera truly see?"
+    },
+    {
+      "scene": 2,
+      "visual": "Screen recording: A computer vision system analyzing a street scene. Highlighted object detection – ‘Person’, ‘Car’ labels appear briefly.",
+      "voiceover": "This system learns to identify objects."
+    },
+    {
+      "scene": 3,
+      "visual": "Screen recording: The system identifies a red bicycle. A brief graphic shows the system’s confidence level increasing.",
+      "voiceover": "It starts recognizing shapes and colors."
+    },
+    {
+      "scene": 4,
+      "visual": "Screen recording: The computer vision system interface with a button labeled ‘Explore More’. Text overlay: ‘Subscribe for more data!’",
+      "voiceover": "Want to see what your cameras detect? Subscribe now!"
+    }
+  ],
+  "reel_seconds": 45,
+  "caption": "**(Visual: A blurry face slowly resolves into a clear image of a dog – 1.5 seconds.)** Hey tech enthusiasts! This is what the computer vision system saw at first. The system started identifying shapes and colors, building a database of what it saw. **(Visual: Lines of code briefly flash across the screen.)** It was learning. Wow, look at that! It’s starting to recognize faces! Pretty fascinating, right? Let us know in the comments if you’ve ever encountered unexpected data during AI development! #computer vision #ai #machinelearning #tech",
+  "hashtags": [
+    "#ComputerVision",
+    "#AI",
+    "#DataScience",
+    "#UnexpectedData",
+    "#MachineLearning"
+  ],
+  "titles": [
+    "Data Reveals Secrets"
+  ],
+  "thumbnail_texts": [
+    "Unexpected patterns found"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 4,
+      "tone": 4,
+      "hashtags": 4,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The initial caption’s ‘Hey tech enthusiasts!’ feels immediately out of place in a short. It’s too conversational and doesn’t immediately grab attention. The ‘Wow, look at that!’ feels forced and doesn’t add value. The voiceover in scene 1 is overly dramatic and doesn’t directly relate to the visual. The ‘Let us know in the comments…’ call to action is weak and doesn’t leverage the short format effectively.",
+      "The script relies heavily on explaining *how* the system works, which is dense and potentially confusing for a general audience. It’s explaining the *process* of computer vision, not showcasing the output.",
+      "The ‘Want to see what your cameras detect? Subscribe now!’ is a generic call to action and doesn’t build excitement or curiosity."
+    ],
+    "fixes": [
+      "Replace the initial caption with a more direct and intriguing question, e.g., ‘What does your camera *really* see?’ or ‘AI spotting faces – it’s happening!’ Cut the overly enthusiastic ‘Wow, look at that!’ and the weak call to action. Instead, focus on the immediate visual impact. Simplify the voiceover in scene 1 to ‘The system is learning to recognize faces.’.  Reframe the script to focus on the *result* – the recognition of a face – rather than the technical process.  Replace the generic call to action with something more specific to the short’s content, such as ‘See more AI detections – subscribe now!’"
+    ],
+    "average": 3.83
+  },
+  "caption_original": "**(Visual: Rapid, chaotic stream of unfiltered camera data – blurry faces, random objects, distorted colors – plays for 3 seconds. Fast, pulsing electronic music.)**\n\nHey tech enthusiasts! This is what the computer vision system *actually* saw before it learned to recognize anything.\n\n**(Visual: Transition to a slightly clearer, but still messy, feed – maybe 5-10 seconds of the initial data.)**\n\nWe built a computer vision project, and the first few hours were… intense. It was just raw data. A chaotic flood of images – faces, furniture, reflections, everything. It was like the system was having a massive, unfiltered brainstorm.\n\n**(Visual: Show a brief graphic of the computer processing the data – lines of code, a simplified representation of neural networks – for 2 seconds.)**\n\nIt was trying to make sense of it all, building connections, slowly starting to identify patterns. It was a wild ride to watch the system learn. \n\n**(Visual: Return to the data stream, but now with a subtle overlay indicating the system's ‘learning’ – perhaps a few highlighted shapes or objects.)**\n\nPretty fascinating, right? Let us know in the comments if you’ve ever encountered unexpected data during AI development! #computer vision #ai #machinelearning #tech",
+  "revised": true,
+  "reel_script_original": [
+    {
+      "scene": 1,
+      "visual": "Rapid montage of distorted camera feeds – blurry faces, strange objects.",
+      "voiceover": "Ever wonder what your cameras *really* see?"
+    },
+    {
+      "scene": 2,
+      "visual": "Screen recording: A computer vision system analyzing a street scene. Highlighted object detection - 'Person', ‘Car’",
+      "voiceover": "This is a computer vision project in action."
+    },
+    {
+      "scene": 3,
+      "visual": "Close-up of an unexpected anomaly detected – a garden gnome.",
+      "voiceover": "…and sometimes it finds the unbelievable things.” “A gnome!” 2 seconds silence. “Interesting.”” 5 seconds total. 10 words max.  “It’s learning, reacting...” 3seconds voice over.  4words visual. 9 secs total. 20 word limit. 8secs max on VO. "
+    },
+    {
+      "scene": 4,
+      "visual": "Screen recording: The computer vision system interface with a button labeled ‘Explore More’.”, “Subscribe for more unexpected data!”",
+      "voiceover": "Want to see what *your* cameras detect? Subscribe now!"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "topic": "Final year project",
+  "platform": "LinkedIn",
+  "tone": "professional",
+  "output_type": "portfolio post",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T03:52:10",
+  "tools_used": [
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [
+    {
+      "tool": "trend_idea_generator",
+      "error": "Ollama failed after 3 attempts: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+    }
+  ],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "caption": "Just finished my final year project – a deep dive into developing a novel algorithm for image recognition. It was a demanding process, but incredibly rewarding.\n\nI spent several weeks researching and implementing algorithms, primarily using Python and machine learning techniques. This project pushed me to solidify my understanding of complex problem-solving and the practical application of theoretical concepts within computer vision.\n\nSpecifically, I focused on [mention a specific technique or aspect – e.g., convolutional neural networks] and gained hands-on experience with data analysis and model training. It’s given me a strong foundation for future work in this field.\n\nI’m excited to apply these skills and continue learning. What’s the most surprising thing you’ve learned during your own final year project? #ImageRecognition #MachineLearning #FinalYearProject #ComputerVision",
+  "hashtags": [
+    "#FinalYearProject",
+    "#University",
+    "#Engineering"
+  ],
+  "titles": [
+    "Epic Final Year Project"
+  ],
+  "thumbnail_texts": [
+    "The culmination of work"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 3,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Hook is weak and generic. The phrase ‘demanding process, incredibly rewarding’ is cliché. The description lacks a specific, intriguing detail about the algorithm’s novelty. Clarity could be improved by simplifying technical jargon for a broader audience. The paragraph length is borderline – some paragraphs are too long, others too short. The tone is generally professional but could be more engaging. Hashtags are relevant but could be narrowed. There’s a slight risk of implying a measurable result – ‘strong foundation’ suggests a tangible outcome without stating what that foundation *is*."
+    ],
+    "fixes": [
+      "Rewrite the caption to start with a more compelling detail about the algorithm’s achievement or a unique challenge overcome. For example: ‘I developed a novel image recognition algorithm that achieved [quantifiable result, if possible, e.g., 92% accuracy on a specific dataset]…’ or ‘My final year project tackled the challenge of [specific problem] using…’. Shorten the second paragraph and combine it with the third. Break up the longer paragraphs into shorter, more digestible chunks. Consider removing the #University and #Engineering hashtags – they’re overly broad. Focus on refining the language to avoid vague claims about ‘strong foundation’ – instead, state what specific skills were developed (e.g., ‘I gained proficiency in convolutional neural networks and data augmentation techniques.’"
+    ],
+    "average": 3.5
+  },
+  "caption_original": "Delving into the complexities of a final year project can be a truly rewarding experience. \n\nI recently completed my final year project, a focused exploration into [Specify the project topic here – e.g., ‘developing a novel algorithm for image recognition’]. The process involved significant research, design, and implementation.\n\nIt was a challenging but incredibly valuable journey. I gained hands-on experience with [Mention specific technologies or methodologies – e.g., ‘Python programming, machine learning techniques, and data analysis’].\n\nThis project allowed me to solidify my understanding of [Mention specific area of knowledge gained – e.g., ‘complex problem-solving and the application of theoretical concepts’]. \n\nI’m proud of the work I’ve accomplished and eager to apply these skills moving forward. What are some of the biggest challenges you’ve faced during your final year projects? #finalyearproject #engineering #university #project",
+  "revised": true
+}

@@ -1,0 +1,64 @@
+{
+  "topic": "Final year project",
+  "platform": "LinkedIn",
+  "tone": "professional",
+  "output_type": "portfolio post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T00:16:20",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "title_thumbnail_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "From Initial Concept to Tangible Outcome: A Milestone Showcase",
+  "hook": "Spent countless nights wrestling with code – here's the final project, a tangible result of intense effort.",
+  "audience": "University students, academics, potential employers",
+  "caption": "Just finished developing a system for analyzing student feedback on course materials. This final year project represents a significant step in my development as an engineer. 🛠️\n\nI focused on creating a streamlined process for gathering and interpreting student opinions on course materials. The initial phase involved researching existing feedback collection methods and determining the optimal approach for my project. I then designed an intuitive user interface, prioritizing ease of use for both students and administrators. \n\nOne of the key challenges was ensuring the algorithm accurately identified sentiment trends within the feedback data. I addressed this through iterative testing and refining the data processing logic. This ultimately led to a system capable of flagging areas needing improvement. 💡\n\nI’m eager to share the final product and discuss the lessons learned. What’s one technical hurdle you’ve overcome during your academic projects? #finalyearproject #university #engineering #development",
+  "hashtags": [
+    "#FinalYearProject",
+    "#Engineering",
+    "#Innovation"
+  ],
+  "titles": [
+    "Project Reveal: Milestone!",
+    "From Idea to Build",
+    "Final Year Project Unveiled"
+  ],
+  "thumbnail_texts": [
+    "The project is done",
+    "See the final build",
+    "Milestone project complete"
+  ],
+  "review": {
+    "scores": {
+      "hook": 2,
+      "clarity": 3,
+      "length": 3,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Hook is weak and generic. 'Significant step' is overused. The initial description of the system is vague. 'Flagging areas needing improvement' is a very basic function and doesn't convey the engineering challenge. The phrasing is slightly repetitive – 'intuitive user interface' and 'streamlined process' are buzzwords."
+    ],
+    "fixes": [
+      "Rewrite the caption to immediately state *what* the system does and *why* it's valuable. For example: 'I've developed a system to analyze student feedback on course materials, identifying key areas for improvement and streamlining the feedback process for both students and administrators.' Remove redundant phrases. Focus on the core technical challenge – sentiment analysis algorithm refinement – to demonstrate engineering skills."
+    ],
+    "average": 3.33
+  },
+  "caption_original": "Spent countless nights wrestling with code – here's the final project, a tangible result of intense effort.\n\nAs my final year project draws to a close, I’m incredibly proud to share the culmination of this challenging but rewarding experience. This project involved developing a system for [state the project's purpose - e.g., analyzing student feedback on course materials].\n\nThe process began with initial concept development, followed by rigorous research and iterative prototyping. I focused on [mention core aspects of the project - e.g., designing an intuitive user interface and implementing a robust data processing algorithm].\n\nIt was a demanding journey, demanding significant time investment and problem-solving. I’m excited to have reached this milestone and to present the final product. \n\nI’m keen to hear your thoughts – what are some key challenges you’ve faced during your own academic projects? #finalyearproject #university #engineering #development",
+  "revised": true
+}

@@ -1,0 +1,52 @@
+{
+  "topic": "Debugging FastAPI",
+  "platform": "X",
+  "tone": "funny",
+  "output_type": "short post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T10:13:41",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "I Spent 3 Hours Debugging a FastAPI App... And It Was Just a Missing Semicolon",
+  "hook": "I stared at my FastAPI app for 3 hours. Turns out, one tiny semicolon was the culprit.",
+  "audience": "FastAPI developers, especially junior developers",
+  "caption": "A single semicolon caused 3 hours of debugging! 🤯 Ever spent hours debugging a single semicolon?",
+  "hashtags": [
+    "#FastAPI",
+    "#Python",
+    "#Debugging"
+  ],
+  "review": {
+    "scores": {
+      "hook": 5,
+      "clarity": 3,
+      "length": 2,
+      "tone": 5,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The length is far too long for X. It exceeds the character limit significantly. The hook, while relatable, is a bit lengthy and could be more concise. The hashtag count is excessive."
+    ],
+    "fixes": [
+      "Trim the caption to under 280 characters. Focus on the core issue – the semicolon causing debugging time. Shorten the opening line: ‘A single semicolon caused 3 hours of debugging!’ to ‘A single semicolon caused 3 hours of debugging.’ Consider removing one hashtag – #FastAPI – as it’s less directly relevant to the core experience. “"
+    ],
+    "average": 3.83
+  },
+  "caption_original": "I stared at my FastAPI app for 3 hours. Turns out, one tiny semicolon was the culprit. 🤯 Seriously, don't skip those punctuation checks! It’s amazing what a single missing semicolon can do. 😅 #FastAPI #Debugging",
+  "revised": true
+}

@@ -1,0 +1,66 @@
+{
+  "topic": "Model failed in production",
+  "platform": "Instagram",
+  "tone": "meme style",
+  "output_type": "reel script",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T00:01:47",
+  "tools_used": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "hashtag_generator"
+  ],
+  "tool_errors": [
+    {
+      "tool": "content_reviewer",
+      "error": "Ollama is not reachable at http://localhost:11434. Start it, then run `ollama pull gemma3:4b`."
+    }
+  ],
+  "plan_raw": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "The Model Died. RIP.",
+  "hook": "My model just kicked the bucket. Send help (and maybe a eulogy).",
+  "audience": "Data Scientists, ML Engineers, DevOps",
+  "reel_script": [
+    {
+      "scene": 1,
+      "visual": "Close-up shot of a digital clock rapidly counting down from 0:59 to 0:01.",
+      "voiceover": "It blinked. Then… silence."
+    },
+    {
+      "scene": 2,
+      "visual": "Screen recording of a model's performance graph plummeting to zero.",
+      "voiceover": "The model died. A sudden, cold void."
+    },
+    {
+      "scene": 3,
+      "visual": "A single, black pixel slowly fading on a monitor.",
+      "voiceover": "No predictions. No insights. Just… nothing."
+    },
+    {
+      "scene": 4,
+      "visual": "Text overlay: ‘Model Died. RIP.’ with a hand pointing to a link in bio.",
+      "voiceover": "Want to avoid this? DM for model monitoring."
+    }
+  ],
+  "reel_seconds": 45,
+  "hashtags": [
+    "#MachineLearning",
+    "#AI",
+    "#DataScience",
+    "#ModelFailure",
+    "#MLOps",
+    "#DeepLearning",
+    "#RIPModel",
+    "#DataError",
+    "#ProductionIssue",
+    "#ModelDebugging",
+    "#TechProblems",
+    "#Algorithm"
+  ]
+}

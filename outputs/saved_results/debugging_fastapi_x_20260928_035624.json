@@ -1,0 +1,52 @@
+{
+  "topic": "Debugging FastAPI",
+  "platform": "X",
+  "tone": "funny",
+  "output_type": "short post",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T03:55:18",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "The Time I Spent 8 Hours Debugging a FastAPI App That Was Just… Working?",
+  "hook": "I stared at my perfectly functioning FastAPI app for eight hours. Seriously.",
+  "audience": "FastAPI developers experiencing frustrating debugging sessions",
+  "caption": "Eight hours debugging a perfectly functioning FastAPI app. Seriously. 🤯 Anyone else experience this? #fastapi #debugging",
+  "hashtags": [
+    "#fastapi",
+    "#python",
+    "#debugging"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 2,
+      "tone": 5,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Caption is too long and doesn’t immediately grab attention. The ‘Seriously’ feels a bit forced. The emoji is fine, but doesn’t add much. The length exceeds the character limit significantly. The phrasing is a little clunky."
+    ],
+    "fixes": [
+      "Shorten the caption to approximately 240 characters: ‘Eight hours debugging a perfectly functioning FastAPI app. 🤯 Anyone else?’ Remove the ‘Seriously’ and the emoji. Consider a more direct question to encourage engagement: ‘Anyone else find themselves in this situation?’"
+    ],
+    "average": 3.5
+  },
+  "caption_original": "I stared at my perfectly functioning FastAPI app for eight hours. Seriously. It was just… working. 🤯 Debugging felt like staring into a void. Anyone else have a ‘just working’ horror story? #FastAPI #Debugging",
+  "revised": true
+}

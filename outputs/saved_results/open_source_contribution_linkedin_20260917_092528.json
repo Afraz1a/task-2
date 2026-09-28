@@ -1,0 +1,59 @@
+{
+  "topic": "Open-source contribution",
+  "platform": "LinkedIn",
+  "tone": "inspirational",
+  "output_type": "post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:20:52",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "The Unexpected Ripple Effect of a Single Line of Code",
+  "hook": "A tiny change in a codebase sparked a global accessibility update. It started with you.",
+  "audience": "Developers, designers, anyone interested in collaborative impact",
+  "caption": "A single line of code I submitted to the [Project Name] project triggered a global accessibility update. I adjusted the styling of the [Button Component] component to improve contrast ratios. This update immediately improved screen reader compatibility for users accessing the project’s documentation.\n\nThis highlights the power of collaborative development. Small changes can have a surprising ripple effect across entire projects and frameworks. Developers worldwide quickly adopted the updated code, leading to broader accessibility improvements.\n\nOpen-source projects rely on contributions of all sizes. Every adjustment matters. What’s one small code change you’ve made recently that improved accessibility?\n#opensource #accessibility #collaboration #development",
+  "hashtags": [
+    "#OpenSource",
+    "#Collaboration",
+    "#SoftwareDevelopment",
+    "#CodeContribution",
+    "#Community",
+    "#Innovation"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 5,
+      "length": 4,
+      "tone": 3,
+      "hashtags": 4,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The hook is weak and doesn’t immediately convey the impact. It’s too focused on the code itself. The ‘ripple effect’ statement feels slightly inflated and could be toned down. The tone is a little too enthusiastic – ‘surprisingly’ is a strong word that feels forced.",
+      "The paragraph about developers worldwide adopting the code is speculative and not supported by the original statement.",
+      "The concluding question feels a little tacked on."
+    ],
+    "fixes": [
+      "Rewrite the caption to start with the immediate impact: ‘One line of code improved screen reader compatibility for the project’s documentation.’ This immediately grabs attention.",
+      "Remove the sentence about developers worldwide adopting the code.",
+      "Rephrase the concluding question to be more directly related to the core story: ‘What’s one small code change you’ve made recently to improve accessibility?’"
+    ],
+    "average": 4.0
+  },
+  "caption_original": "A tiny change in a codebase sparked a global accessibility update. It started with you.\n\nI recently contributed a single line of code to the [Project Name] open-source project. I wasn’t expecting much – just a minor adjustment to the [Specific Component] component.\n\nBut that change triggered a cascade of improvements across multiple projects and frameworks. Developers worldwide began incorporating the updated code, leading to a significant global accessibility update. It’s a powerful reminder of the ripple effect of collaborative development.\n\nOpen-source projects thrive on contributions, big and small. Every line of code, every thoughtful suggestion, has the potential to create widespread impact.\n\nWhat’s one small change you’ve made recently that you’re proud of? #opensource #accessibility #collaboration #development",
+  "revised": true
+}

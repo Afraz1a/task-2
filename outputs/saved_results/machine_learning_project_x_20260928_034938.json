@@ -1,0 +1,36 @@
+{
+  "topic": "Machine learning project",
+  "platform": "X",
+  "tone": "short and catchy",
+  "output_type": "short post",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T03:48:26",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator"
+  ],
+  "tool_errors": [
+    {
+      "tool": "content_reviewer",
+      "error": "could not obtain valid JSON (Extra data: line 1 column 275 (char 274)); last reply: {\"scores\": {\"hook\": 2, \"clarity\": 3, \"length\": 1, \"tone\": 4, \"hashtags\": 3, \"no_invented_claims\": 5},\n  \"verdict\": \"REVISE\",\n  \"problems\": [\"The hook is dramatically overstated and lacks specifics. ‘Going rogue’ is a cliché.\",\"The caption is too verbose and doesn’t immediately convey the core issue."
+    }
+  ],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "The Unexpected Twist in Our Model",
+  "hook": "Our AI went rogue… and we’re still trying to understand why.",
+  "audience": "Data scientists, machine learning engineers, and tech enthusiasts",
+  "caption": "Our AI went rogue… and we’re still trying to understand why. \n\nIt’s a wild ride building machine learning models, and this one just threw us a curveball. Data scientists, ML engineers – let’s discuss! @MachineLearning",
+  "hashtags": [
+    "#MachineLearning",
+    "#AI",
+    "#DataScience"
+  ]
+}

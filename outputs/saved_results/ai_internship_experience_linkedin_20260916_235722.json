@@ -1,0 +1,45 @@
+{
+  "topic": "AI internship experience",
+  "platform": "LinkedIn",
+  "tone": "motivational",
+  "output_type": "post",
+  "model": "gemma3:4b",
+  "started": "2026-09-16T23:55:59",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "content_reviewer",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "A Small Error, a Big Lesson in Model Validation",
+  "hook": "I spent 72 hours debugging a single mislabeled image – AI isn't magic.",
+  "audience": "Aspiring AI engineers, students, anyone curious about the realities of AI development",
+  "caption": "A single mislabeled image nearly derailed my AI internship. \n\nDuring my recent AI internship, we were developing an object detection model for identifying different vehicle types. The model’s accuracy plummeted when a single, subtly incorrect label in our training dataset caused a cascade of inaccurate predictions. \n\nTracking down the source – a manual labeling error – took three days. It wasn’t about complex algorithms or processing power. It highlighted the critical importance of data integrity. \n\nWe rigorously validated the training data, ensuring each image was correctly labeled. This process revealed the vulnerability created by a single flawed entry. \n\nData quality is the foundation of any successful AI model – neglecting it is a critical mistake. What are your best practices for ensuring data accuracy in your AI projects? #AI #MachineLearning #DataScience #Internship",
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 5,
+      "length": 4,
+      "tone": 3,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Hook is weak and overly dramatic. The opening sentence doesn't immediately grab attention. The ‘nearly derailed’ phrasing is a bit sensational and doesn’t fully convey the core lesson. The tone is somewhat dry and doesn’t fully capitalize on the potential for a motivational message. The concluding question feels tacked on."
+    ],
+    "fixes": [
+      "Rewrite the opening to be more direct and impactful. Instead of ‘nearly derailed,’ consider something like: ‘A single mislabeled image exposed a critical vulnerability in our AI model.’. Add a brief, concrete consequence of the error – e.g., ‘leading to incorrect vehicle classifications.’. Shift the tone to be slightly more engaging and emphasize the learning opportunity. Conclude with a stronger takeaway, such as: ‘Data integrity isn’t just important; it’s the bedrock of reliable AI.’"
+    ],
+    "average": 3.83
+  },
+  "caption_original": "I spent 72 hours debugging a single mislabeled image – AI isn’t magic.\n\nMy recent AI internship focused on developing a model for object detection, and it was… illuminating. We were training a system to identify different types of vehicles, and we hit a wall. A single, subtly mislabeled image in our training dataset caused a cascade of incorrect predictions.\n\nIt took me three days to track down the source – a manual labeling error that shouldn't have been there. This wasn’t a matter of complex algorithms or vast computational power. It was a stark reminder of the fundamental importance of data quality.\n\nValidating your training data is *critical*. It’s the bedrock upon which any successful AI model is built.\n\nWhat are your strategies for ensuring data integrity in your AI projects? #AI #MachineLearning #DataScience #Internship #ModelValidation",
+  "revised": true
+}

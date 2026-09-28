@@ -1,0 +1,88 @@
+{
+  "topic": "Model failed in production",
+  "platform": "Instagram",
+  "tone": "meme style",
+  "output_type": "reel script",
+  "model": "gemma3:4b",
+  "started": "2026-09-28T04:34:13",
+  "tools_used": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "We built a model. It failed. Turns out, the data we used to train it was… a bit chaotic.",
+  "hook": "Our fancy model just choked. Turns out, the data was a dumpster fire.",
+  "audience": "Data Scientists, Machine Learning Engineers",
+  "reel_script": [
+    {
+      "scene": 1,
+      "visual": "Close-up of a frantic, pixelated error message: 'Model Failed'. Rapid zoom.",
+      "voiceover": "Our model? Total meltdown."
+    },
+    {
+      "scene": 2,
+      "visual": "Screen recording showing messy, unlabeled data – dates jumbled, inconsistent values.",
+      "voiceover": "We built it. Trained it. Then… this."
+    },
+    {
+      "scene": 3,
+      "visual": "A slightly exasperated engineer pointing at a spreadsheet.",
+      "voiceover": "Turns out, the training data was… chaotic."
+    },
+    {
+      "scene": 4,
+      "visual": "Text overlay: 'Data Quality Matters'. Instagram handle displayed. Arrow pointing to link in bio.",
+      "voiceover": "Want to avoid model meltdowns? Check our link!"
+    }
+  ],
+  "reel_seconds": 45,
+  "hashtags": [
+    "#MachineLearning",
+    "#AI",
+    "#DataScience",
+    "#ModelFailure",
+    "#DataQuality",
+    "#Chaos",
+    "#TrainingData",
+    "#ModelDevelopment",
+    "#Tech",
+    "#ErrorAnalysis",
+    "#Engineering",
+    "#ProblemSolving"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 4,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The hook is weak. The 'Model Failed' message is a common, somewhat cliché error. It needs a more immediate, surprising element to grab attention. The zoom is standard but doesn’t add much.",
+      "While generally understandable, the script relies heavily on jargon ('model meltdown', 'training data'). A broader audience won’t immediately grasp the core issue – poor data quality.",
+      "The length is acceptable, but could be tightened. The voiceover in Scene 2 is particularly wordy.",
+      "The tone is generally correct – slightly exasperated – but leans a little too heavily into the ‘engineer pointing at spreadsheet’ trope. It feels slightly staged.",
+      "The hashtag selection is decent, but could be more targeted. ‘Chaos’ feels a bit out of place."
+    ],
+    "fixes": [
+      "Replace the opening error message with something more visually arresting and unexpected. Consider a short, looping animation of data corruption or a distorted model visualization. Aim for immediate intrigue.",
+      "Simplify the voiceover in Scene 2. Instead of describing the messy data, focus on the *impact* of that mess: ‘Our model was trained on inconsistent dates, leading to unpredictable results.’",
+      "Trim the voiceover in Scene 2 by approximately 20-30%. Focus on the core problem – bad data – and its consequence.",
+      "Add a brief, relatable visual element to Scene 3. Instead of just pointing, show the engineer visibly frustrated while reviewing the data. A quick cut to a stressed expression would improve the impact.",
+      "Replace ‘Chaos’ with a more specific hashtag like #DataErrors or #TrainingDataIssues. Consider adding #DataGovernance or #DataQualityControl."
+    ],
+    "average": 3.67
+  }
+}

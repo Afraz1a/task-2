@@ -1,0 +1,51 @@
+{
+  "topic": "Machine learning project",
+  "platform": "X",
+  "tone": "short and catchy",
+  "output_type": "short post",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:48:01",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [],
+  "plan_raw": [
+    "trend_idea_generator",
+    "caption_writer",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "Unexpected Patterns Emerged",
+  "hook": "We fed the algorithm data. It found something nobody expected.",
+  "audience": "Data Scientists, AI enthusiasts",
+  "caption": "The algorithm revealed a surprising pattern in the data – a connection no one anticipated. The algorithm uncovered a hidden correlation.",
+  "hashtags": [
+    "#MachineLearning",
+    "#AI",
+    "#DataScience"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 2,
+      "tone": 3,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The hook is weak and relies on vague language ('surprising pattern', 'hidden correlation'). It doesn’t immediately grab attention. The length is too long for X and needs significant trimming. The phrasing is overly formal and doesn’t feel ‘short and catchy’."
+    ],
+    "fixes": [
+      "Rewrite the caption to be more direct and impactful. Example: 'Algorithm reveals a surprising data connection – a correlation no one expected.' Reduce the length to under 280 characters. Consider a more active voice and a stronger opening statement."
+    ],
+    "average": 3.17
+  },
+  "caption_original": "We fed the algorithm data. It found something nobody expected.\nTurns out, the machine learning project unearthed unexpected patterns in the dataset. 🤯\nFor data scientists & AI enthusiasts – this was a wild ride.",
+  "revised": true
+}

@@ -1,0 +1,15 @@
+# TrendPilot - local agentic AI content assistant
+# Python 3.10+
+#
+# The agent itself needs only `requests`: it talks to Ollama over its HTTP API
+# rather than through a framework. That is deliberate - the brief asks for an
+# agentic workflow, and writing the plan/route/review loop directly makes that
+# workflow visible in the code instead of hidden inside LangChain.
+
+requests>=2.31.0
+
+# Optional web demo (the CLI in demo.py needs nothing extra)
+streamlit>=1.38.0
+
+# Optional: report rendering
+markdown>=3.5

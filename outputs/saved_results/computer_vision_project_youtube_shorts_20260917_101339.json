@@ -1,0 +1,68 @@
+{
+  "topic": "Computer vision project",
+  "platform": "YouTube Shorts",
+  "tone": "exciting",
+  "output_type": "video script",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T10:07:14",
+  "tools_used": [
+    "trend_idea_generator",
+    "caption_writer",
+    "title_thumbnail_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [
+    {
+      "tool": "reel_script_generator",
+      "error": "Ollama failed after 3 attempts: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+    }
+  ],
+  "plan_raw": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "caption_writer",
+    "title_thumbnail_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "A Glitch in the System",
+  "hook": "This AI almost saw a banana as a brick. Seriously.",
+  "audience": "Tech enthusiasts, AI learners, anyone fascinated by unexpected errors",
+  "caption": "You won't believe what this AI saw! I was training an AI to recognize objects, and it completely misidentified a banana as a brick. Seriously! Look at that – a full misidentification. It’s wild how quickly AI can make these kinds of mistakes. #AIError #MachineLearningFail #ComputerVisionGlitch",
+  "titles": [
+    "System Glitch Detected"
+  ],
+  "thumbnail_texts": [
+    "Vision's Unexpected Error"
+  ],
+  "review": {
+    "scores": {
+      "hook": 3,
+      "clarity": 3,
+      "length": 4,
+      "tone": 4,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "The hook ‘You won’t believe…’ is a common, overused tactic and doesn’t immediately grab attention. It’s predictable. The ‘seriously!’ feels forced and doesn’t add genuine intrigue. The phrase ‘It’s wild how quickly AI can make these kinds of mistakes’ is a statement of observation, not a compelling reveal.",
+      "The caption lacks context for someone outside of machine learning. While ‘recognize objects’ is understandable, the banana/brick misidentification needs a little more framing.",
+      "The length is good – it’s within the 60-second range.",
+      "The tone is appropriately surprised and slightly amused, which aligns with ‘exciting’ – but it needs more energy.",
+      "The hashtags are relevant but could be refined. ‘ComputerVisionGlitch’ is a bit too niche.",
+      "The caption doesn’t invent anything, but it could be more specific about the training process.",
+      ""
+    ],
+    "fixes": [
+      "Replace the hook with something more surprising and specific. For example: ‘This AI just classified a banana as a brick. You won’t believe why.’ Or ‘I trained an AI, and it completely messed up a simple object recognition task.’",
+      "Add a brief sentence explaining the context: ‘I was training an AI to identify everyday objects, and it produced a surprising result.’",
+      "Consider replacing ‘ComputerVisionGlitch’ with ‘AI Error’ or ‘Machine Learning Misidentification’ for broader appeal.",
+      "Increase the energy in the delivery – use more vocal inflection and emphasize the unexpected nature of the error.",
+      ""
+    ],
+    "average": 3.67
+  },
+  "caption_original": "Hey everyone, check this out. This AI was doing its thing, running a computer vision project – and it almost saw a banana as a brick. Seriously.\n\nI was building this system to identify objects, you know, the kind of stuff you’d see in self-driving cars or robotics. I fed it tons of images, and it was learning… but then this happened.\n\nLook at this! The system completely misidentified a banana. It flagged it as a brick. I’m still trying to figure out what caused the glitch. It’s wild to see how even the most advanced AI can make these kinds of mistakes.\n\nPretty crazy, right? Let me know in the comments if you've ever encountered a weird AI error. #AI #ComputerVision #Glitch #ArtificialIntelligence #MachineLearning",
+  "revised": true
+}

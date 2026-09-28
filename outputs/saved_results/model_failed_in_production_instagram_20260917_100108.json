@@ -1,0 +1,61 @@
+{
+  "topic": "Model failed in production",
+  "platform": "Instagram",
+  "tone": "meme style",
+  "output_type": "reel script",
+  "model": "gemma3:4b",
+  "started": "2026-09-17T09:54:06",
+  "tools_used": [
+    "trend_idea_generator",
+    "hashtag_generator",
+    "content_reviewer"
+  ],
+  "tool_errors": [
+    {
+      "tool": "reel_script_generator",
+      "error": "Ollama failed after 3 attempts: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+    }
+  ],
+  "plan_raw": [
+    "trend_idea_generator",
+    "reel_script_generator",
+    "hashtag_generator",
+    "file_saver"
+  ],
+  "plan_repairs": [],
+  "angle": "Before: Shiny New Model. After: Just... Gone.",
+  "hook": "Just built the perfect model. Then, poof. Gone. 💥 Don't ask questions, just... don't.",
+  "audience": "Data Scientists, Machine Learning Engineers",
+  "hashtags": [
+    "#MachineLearning",
+    "#AI",
+    "#ModelFailure",
+    "#DataScience",
+    "#ProductionIssues",
+    "#DevOps",
+    "#SoftwareEngineering",
+    "#ModelDeployment",
+    "#ErrorHandling",
+    "#TechProblems",
+    "#SystemFailures",
+    "#Engineering"
+  ],
+  "review": {
+    "scores": {
+      "hook": 2,
+      "clarity": 3,
+      "length": 3,
+      "tone": 3,
+      "hashtags": 3,
+      "no_invented_claims": 5
+    },
+    "verdict": "REVISE",
+    "problems": [
+      "Hook is weak and generic. The text doesn't immediately convey a problem or a relatable situation. 'Model Failure' is a very broad topic and doesn't grab attention. 'System Failures' is equally vague. The tone is neutral, not meme-style. The length is borderline acceptable but could be tighter. Several hashtags feel like filler."
+    ],
+    "fixes": [
+      "Rewrite the opening to immediately establish a specific, relatable scenario of a model failure. For example: 'When your ML model suddenly starts spitting out nonsense… 🤯'.  Cut down the description to 55 words max. Inject more personality and a slightly frustrated tone – something like 'Ugh, another model failure. Time to debug.'. Reduce the number of hashtags to 7: #MachineLearning #AI #ModelFailure #DataScience #ProductionIssues #DevOps #ErrorHandling."
+    ],
+    "average": 3.17
+  }
+}
